@@ -1,0 +1,23 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#eef2f7; color:#111 }
+.container { max-width:1000px; margin:28px auto; padding:8px }
+.nav{ background:#fff; padding:12px 16px; box-shadow:0 1px 6px rgba(15,15,15,0.06); border-radius:8px }
+.nav a{ margin-right:14px; text-decoration:none; color:#2b6cb0; font-weight:600 }
+.card{ background:#fff; padding:18px; margin:14px 0; border-radius:10px; box-shadow:0 6px 18px rgba(11,20,40,0.04) }
+.tasks{ width:100%; border-collapse:collapse; margin-top:12px }
+.tasks th, .tasks td{ padding:12px 8px; border-bottom:1px solid #f0f4f8; text-align:left }
+.tasks th{ color:#374151; font-size:13px; text-transform:uppercase }
+.badge{ padding:6px 8px; border-radius:6px; font-size:12px; color:#fff }
+.badge.pending{ background:#f59e0b }
+.badge.completed{ background:#10b981 }
+.btn{ display:inline-block; padding:8px 12px; background:#2563eb; color:#fff; border-radius:6px; text-decoration:none }
+.link-like{ background:none; border:none; color:#2563eb; cursor:pointer }
+label{ display:block; margin-top:10px; font-weight:600 }
+input[type='text'], input[type='email'], input[type='password'], input[type='date'], textarea{ width:100%; padding:10px; border:1px solid #e6eef6; border-radius:8px; background:#fbfdff }
+button{ padding:8px 12px; margin-top:8px; border-radius:6px; border:1px solid transparent; background:#2563eb; color:#fff }
+.flex{ display:flex; gap:12px; align-items:center }
+.flash{ padding:10px 12px; border-radius:8px; margin:8px 0 }
+.flash.success{ background:#ecfdf5; color:#065f46 }
+.flash.error{ background:#fff1f2; color:#9f1239 }
+.content{ margin-top:12px }
+.actions{ display:flex; gap:8px }
+.small{ font-size:13px; color:#6b7280 }
